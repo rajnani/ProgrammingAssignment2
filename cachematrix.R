@@ -52,7 +52,6 @@ cacheSolve <- function(x, ...) {
     ## set the calculated value in cache
     x$setInverse(inverse)
     
+    print("Returning calculated inverse")
     return(inverse)
 }
-
-
